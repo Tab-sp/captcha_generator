@@ -2,7 +2,7 @@
 creates a captcha generator using YOLOv3 and openCV
 
 #sample correct result:
-![ScreenShot](https://github.com/Tab-sp/captcha_generator/blob/main/sample_result(1).jpg)
+![ScreenShot](https://github.com/Tab-sp/captcha_generator/blob/main/sample_resut(1).jpg)
 #sample wrong result:
 ![ScreenShot](https://github.com/Tab-sp/captcha_generator/blob/main/sample_result(2).jpg)
 
