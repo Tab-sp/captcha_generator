@@ -1,9 +1,10 @@
 # captcha_generator
 creates a captcha generator using YOLOv3 and openCV
 
-#sample result:
-![ScreenShot](https://github.com/Tab-sp/captcha_generator/blob/main/sample_result.jpg)
-
+#sample correct result:
+![ScreenShot](https://github.com/Tab-sp/captcha_generator/blob/main/sample_result(1).jpg)
+#sample wrong result:
+![ScreenShot](https://github.com/Tab-sp/captcha_generator/blob/main/sample_result(2).jpg)
 
 # explanation
 1) get image
