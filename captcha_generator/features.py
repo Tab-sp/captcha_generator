@@ -51,6 +51,7 @@ def detectAndFill(path):
                 x,y,w,h = boxes[i]
                 cv2.rectangle(image, (x,y), (x+w, y+h), (0,255,0), cv2.FILLED)
     cv2.imwrite('input_image/object_detect/detect.png', image)
+    return mode(temp_lst)
 
 def chop(path):
     image = cv2.imread(path)
