@@ -1,2 +1,2 @@
-openCV-python
+opencv-python
 pygame
