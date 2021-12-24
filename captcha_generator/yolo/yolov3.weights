@@ -4,3 +4,5 @@ https://pjreddie.com/darknet/yolo/
 
 download YOLOv3-608 cfg as "yolov3.cfg"
 download YOLOv3-608 weights as "yolov3.weights"
+
+save both in the "yolo" folder
