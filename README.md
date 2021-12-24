@@ -9,7 +9,7 @@ creates a captcha generator using YOLOv3 and openCV
 1) get image
 2) crop so dimention is biggest possible square
     - get smallest side length between width and height
-    - reshape using openCV so dimention is side X side
+    - reshape using openCV so dimention is (side , side)
 3) run through yolov3 model to get detection of general objects stored in coco.name
 4) get most frequently occuring object, discard detection of all rest
 5) fill green, (0,255,0), boxes on found objects
