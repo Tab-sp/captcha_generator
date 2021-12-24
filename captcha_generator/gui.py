@@ -3,7 +3,7 @@ import main
 
 input_path = 'input_image/sample.png' #where you put in directory to image
 
-check = main.do_it(input_path)
+check, label = main.do_it(input_path)
 pygame.init()
 pygame.display.set_caption('Captcha Generator')
 
@@ -110,6 +110,7 @@ def update_button(mouse):
             print_text('wrong!', 320, 750)
 
 SCREEN.fill(WHITE)
+print_text(f'look for {label}', 320, 20)
 pygame.draw.rect(SCREEN, GREEN, pygame.Rect(250, 700, 120, 40))
 print_text('click to check', 320, 750)
 display_images()
